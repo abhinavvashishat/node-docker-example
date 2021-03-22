@@ -10,6 +10,7 @@
     "lint:fix": "eslint --fix .",
     "prettier:check": "prettier -c 'src/**/*.js'",
     "prettier:fix": "prettier --write 'src/**/*.js'"
+     "sonar": "node sonar-project.js"
   },
   "engines": {
     "node": ">=12.2.0"
